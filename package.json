@@ -2,7 +2,7 @@
   "name": "aggr.template",
   "version":"1.0.0",
   "description": "Delta and CVD indicators for Bitcoin",
-  "main": "BUSDTerminal",
+  "main": "Javascript",
   "keywords": ["Javascript", "Vue.js", "Pinescript"],
   "author": "0xd3lbow",
   "license": "MIT"
