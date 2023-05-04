@@ -16,7 +16,7 @@ $ git clone https://github.com/user/aggr.template.git
 ```
 ## Importing File
 
-* Open https://aggr.trade/
+* Open https://charts.aggr.trade/
 * Select Settings
 * Select +New
 * Upload The Template File
