@@ -1,0 +1,11 @@
+{
+  "name": "aggr.template",
+  "version":"1.0.0",
+  "main": "BUSDTerminal",
+  "keywords": ["Javascript", "Vue.js", "Pinescript"],
+  "author": "0xd3lbow",
+  "license": "MIT"
+}
+  
+  
+  
