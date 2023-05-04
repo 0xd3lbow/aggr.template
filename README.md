@@ -1,21 +1,23 @@
 # BUSD/USDT Terminal
 
-A Binance specific aggr.trade template to monitor their exchange token and BTC/USDT pairs.
+* A Binance specific Bitcoin template to compare the exchange stablecoin flow against USDT flow. Monitor spot and perpetual swap contracts at the same time.
 
-Multiple delta histograms for spot and perp markets.
+![Screenshot 2023-04-14 220023](https://user-images.githubusercontent.com/130616587/236219890-b3a0cc28-8bcc-46b1-9c56-adadeadc3778.png)
 
-# Installation
+#### Overview
+Multiple delta histograms for spot and perp markets, color coded to easily spot divergences in delta/price. Cumulative Volume Delta plots for each individual market and two aggregated CVD lines for the main chart. Track the funding rate/premium for perpeptual swap contracts.
+
+## Installation
 
 Clone the repository:
 
-...
-$git clone https://github.com/0xd3lbow/aggr.template.git
-...
+```
+$ git clone https://github.com/user/aggr.template.git
+```
+## Importing File
 
-# Importing File
-
-*Open https://aggr.trade/
-*Select settings in bottom right-hand corner
-*Select "New"
-*Upload template file
-*Select BUSDTerminal text document
+* Open https://aggr.trade/
+* Select Settings
+* Select +New
+* Upload The Template File
+* Select The  BUSDTerminal Text Document
