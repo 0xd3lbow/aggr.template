@@ -1,7 +1,7 @@
 {
   "version": 7,
   "createdAt": 1673293820001,
-  "updatedAt": 1689807202636,
+  "updatedAt": 1689911346726,
   "name": "Aggr-Bitcoin",
   "id": "72tu",
   "states": {
@@ -320,7 +320,7 @@
           "updatedAt": null,
           "series": [
             "liquidations",
-            "btpxogy4"
+            "fv5brhnk"
           ]
         },
         "price": {
@@ -354,7 +354,7 @@
           "createdAt": 1673293819993,
           "updatedAt": null,
           "series": [
-            "price copy 6"
+            "price"
           ],
           "unsavedChanges": true
         },
@@ -383,7 +383,7 @@
           "updatedAt": null,
           "series": [
             "volume",
-            "1fgd58ej"
+            "3j1fksx6"
           ]
         },
         "btccvdperp": {
@@ -398,15 +398,15 @@
             "color": "#42a5f5",
             "visible": true,
             "scaleMargins": {
-              "top": 0.04,
-              "bottom": 0.52
+              "top": 0.67,
+              "bottom": 0.16
             }
           },
           "id": "btccvdperp",
           "createdAt": 1673293819993,
           "updatedAt": null,
           "series": [
-            "btccvdperp"
+            "btccvdperp copy 1"
           ],
           "displayName": "CVD (BTC PERP)"
         },
@@ -422,8 +422,8 @@
             "color": "#4caf50",
             "visible": true,
             "scaleMargins": {
-              "top": 0.04,
-              "bottom": 0.52
+              "top": 0.48,
+              "bottom": 0.34
             }
           },
           "id": "btccvdspot",
@@ -565,8 +565,8 @@
         },
         "cvdperp": {
           "scaleMargins": {
-            "top": 0.04,
-            "bottom": 0.52
+            "top": 0.67,
+            "bottom": 0.16
           },
           "indicators": [
             "CVD (BTC PERP)"
@@ -574,8 +574,8 @@
         },
         "cvdspot": {
           "scaleMargins": {
-            "top": 0.04,
-            "bottom": 0.52
+            "top": 0.48,
+            "bottom": 0.34
           },
           "indicators": [
             "CVD (BTC SPOT)"
@@ -601,7 +601,7 @@
         }
       },
       "layouting": false,
-      "showIndicators": false,
+      "showIndicators": true,
       "timeframe": "900",
       "refreshRate": 1000,
       "showAlerts": true,
@@ -640,7 +640,7 @@
         "COINBASE:BTC-USDT": false,
         "BITSTAMP:btcusd": false
       },
-      "barSpacing": 7.338263730629308,
+      "barSpacing": 10.456551577440019,
       "navigationState": {
         "tab": "script",
         "optionsQuery": "",
@@ -982,7 +982,7 @@
           "createdAt": 1657340969806,
           "updatedAt": 1689459121231,
           "series": [
-            "price copy 2"
+            "price"
           ],
           "unsavedChanges": true,
           "displayName": "Price",
@@ -1066,7 +1066,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "kraken-spot-delta copy 2"
+            "kraken-spot-delta"
           ],
           "displayName": "Kraken Spot Delta",
           "createdAt": 1657704764440,
@@ -1114,7 +1114,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "coinbase-spot-delta copy 3"
+            "coinbase-spot-delta copy 1"
           ],
           "displayName": "COINBASE Spot Delta",
           "navigationState": {
@@ -1160,7 +1160,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "kucoin-spot-delta copy 3"
+            "kucoin-spot-delta"
           ],
           "displayName": "KUCOIN Spot Delta",
           "navigationState": {
@@ -1206,7 +1206,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "mexc-spot-delta copy 3"
+            "mexc-spot-delta"
           ],
           "displayName": "MEXC Spot Delta",
           "navigationState": {
@@ -1252,7 +1252,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "binance-spot-delta copy 4"
+            "binance-spot-delta"
           ],
           "displayName": "BINANCE Spot Delta",
           "navigationState": {
@@ -1399,7 +1399,7 @@
         "OKEX:BTC-USDC-SWAP": false,
         "OKEX:BTC-USDT-SWAP": false
       },
-      "barSpacing": 7.084488347955905,
+      "barSpacing": 5.068271982551961,
       "navigationState": {
         "tab": "script",
         "optionsQuery": "",
@@ -1511,7 +1511,7 @@
           "createdAt": 1657340969806,
           "updatedAt": 1689459121231,
           "series": [
-            "price copy 9"
+            "price"
           ],
           "unsavedChanges": true,
           "displayName": "Price",
@@ -1600,7 +1600,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "deribit-btc-delta copy 3"
+            "deribit-btc-delta"
           ],
           "displayName": "DERIBIT BTC DELTA",
           "navigationState": {
@@ -1650,7 +1650,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "mexc-usdt-perp copy 3"
+            "mexc-usdt-perp"
           ],
           "displayName": "MEXC USDT PERP",
           "navigationState": {
@@ -1700,7 +1700,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "okex-usdt-swap copy 3"
+            "okex-usdt-swap"
           ],
           "displayName": "OKEX USDT SWAP ",
           "navigationState": {
@@ -1750,7 +1750,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "binance-perp-delta copy 5"
+            "binance-perp-delta"
           ],
           "displayName": "BINANCE Perp Delta",
           "createdAt": 1657342618497,
@@ -1802,7 +1802,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "bybit-perp-delta copy 3"
+            "bybit-perp-delta"
           ],
           "displayName": "BYBIT Perp Delta",
           "navigationState": {
@@ -1985,7 +1985,7 @@
         "OKEX:BTC-USDC": false,
         "OKEX:BTC-USDT": false
       },
-      "barSpacing": 7.7087557953542785,
+      "barSpacing": 6.738422368169785,
       "navigationState": {
         "tab": "script",
         "optionsQuery": "",
