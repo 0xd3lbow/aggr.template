@@ -7,6 +7,11 @@ Multiple delta histograms for spot and perp markets, color coded to easily spot 
 
 <img width="1919" alt="aggr-bitcoin" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/8d6c0ace-417c-4168-a814-18296b7dbd1b">
 
+# ETH 
+
+<img width="1920" alt="ETH_AGGR" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/385f6e18-cd8a-4a36-a9a2-8e92fdec95ab">
+
+
 # BUSD/USDT Terminal
 
 * A Binance specific Bitcoin template to compare the exchange stablecoin flow against USDT flow. Monitor spot and perpetual swap contracts at the same time.
@@ -25,5 +30,5 @@ $ git clone https://github.com/0xd3lbow/aggr.template.git
 * Open https://charts.aggr.trade/
 * Select Settings
 * Select +New
-* Upload The Template File
-* Select The  BUSDTerminal Text Document
+* Upload Template File
+* Select .txt Document
