@@ -7,9 +7,13 @@ Multiple delta histograms for spot and perp markets, color coded to easily spot 
 
 <img width="1919" alt="aggr-bitcoin" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/8d6c0ace-417c-4168-a814-18296b7dbd1b">
 
-# ETH 
+# Ethereum
 
 <img width="1920" alt="ETH_AGGR" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/385f6e18-cd8a-4a36-a9a2-8e92fdec95ab">
+
+# Solana
+
+<img width="1920" alt="Solana_aggr" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/f29cc81b-6ac5-4319-bfbf-d67ffc7b2b71">
 
 
 # BUSD/USDT Terminal
