@@ -7,6 +7,15 @@ Multiple delta histograms for spot and perp markets, color coded to easily spot 
 
 <img width="1919" alt="aggr-bitcoin" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/8d6c0ace-417c-4168-a814-18296b7dbd1b">
 
+
+
+<img width="1920" alt="BTC-v0 2" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/13857e11-3fbd-4e60-b5e9-4ffe72f9fee5">
+
+# Cumulative Volume Delta (Spot & Perps)
+
+
+<img width="1918" alt="CVDs" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/3d04aa3c-5f9f-4908-86eb-82d0eb3feb17">
+
 # Ethereum
 
 <img width="1920" alt="ETH_AGGR" src="https://github.com/0xd3lbow/aggr.template/assets/130616587/385f6e18-cd8a-4a36-a9a2-8e92fdec95ab">
