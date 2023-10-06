@@ -1,7 +1,7 @@
 {
   "version": 7,
   "createdAt": 1696447789125,
-  "updatedAt": 1696457126347,
+  "updatedAt": 1696551848310,
   "name": "CVDs",
   "id": "cvds",
   "states": {
@@ -503,11 +503,7 @@
       ]
     },
     "chart": {
-      "indicatorsErrors": {
-        "bybit-spot-cvd": "Unexpected token ')'",
-        "okex-spot-cvd": null,
-        "bybit-perp-cvd": null
-      },
+      "indicatorsErrors": {},
       "indicators": {
         "allmarkets": {
           "script": "plotline(BITMEX:XBTUSD.close, color=blue, title=Bitmex.perp)\nplotline(BITFINEX:BTCF0:USTF0.close, color=red, title=Bitfinex.perp)\nplotline(OKEX:BTC-USD-SWAP.close, color=white, title=Okex.perp)\nplotline(BINANCE_FUTURES:btcusdt.close, color=yellow, title=Binance.USDT-perp)\nplotline(BINANCE_FUTURES:btcusd_perp.close, color=yellow, title=Binance.USD-perp)\nplotline(HUOBI:BTC-USD.close, color=rgb(238,3,83), title=Huobi.perp)\nplotline(KRAKEN:PI_XBTUSD.close, color=rgb(193,47,255), title=Kraken.perp)\nplotline(DERIBIT:BTC-PERPETUAL.close, color=aqua, title=Deribit.perp)\nplotline(BYBIT:BTCUSDT.close, color=rgb(20,185,26), title=Bybit.USDT.perp)",
@@ -533,15 +529,15 @@
           "unsavedChanges": true,
           "optionsDefinitions": {},
           "series": [
-            "allmarkets copy 14",
-            "6pju6g8e",
-            "n9jnuccw",
-            "4acjbvqq",
-            "b9xzbif1",
-            "72mdqfgz",
-            "59dx892q",
-            "1t616sfh",
-            "zml86zsw"
+            "allmarkets",
+            "8gw0czl8",
+            "3rxlyk9a",
+            "3jbvu5a7",
+            "stwe8x48",
+            "nopbkvij",
+            "9xgt36ar",
+            "nhvvsgkw",
+            "tq9gi2eg"
           ],
           "displayName": "All markets"
         },
@@ -570,7 +566,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "binance-perp-cvd copy 2"
+            "binance-perp-cvd"
           ],
           "displayName": "BINANCE PERP CVD",
           "createdAt": 1657347988177,
@@ -614,7 +610,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "bybit-perp-cvd copy 5"
+            "bybit-perp-cvd"
           ],
           "displayName": "BYBIT PERP CVD",
           "navigationState": {
@@ -656,7 +652,7 @@
           "description": null,
           "unsavedChanges": false,
           "series": [
-            "okex-perp-cvd copy 2"
+            "okex-perp-cvd"
           ],
           "displayName": "OKEX PERP CVD ",
           "navigationState": {
@@ -730,7 +726,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "perp-delta copy 1"
+            "perp-delta"
           ],
           "displayName": "PERP DELTA",
           "createdAt": 1657705213969,
@@ -745,6 +741,54 @@
             "optionsQuery": "",
             "fontSize": 1
           },
+          "preview": {},
+          "optionsDefinitions": {}
+        },
+        "liquidations": {
+          "script": "plotline(lbuy, color=options.upColor)\nplotline(-lsell, color=options.downColor)",
+          "enabled": true,
+          "name": "Liquidations",
+          "description": "Liquidations by side",
+          "options": {
+            "priceScaleId": "liquidations",
+            "priceFormat": {
+              "type": "price",
+              "precision": 2,
+              "minMove": 0.01,
+              "auto": false
+            },
+            "upColor": "rgb(214,40,40)",
+            "downColor": "rgb(37,205,18)",
+            "scaleMargins": {
+              "top": 0,
+              "bottom": 0.96
+            },
+            "lastValueVisible": false,
+            "visible": true,
+            "priceLineVisible": false,
+            "baseLineVisible": false
+          },
+          "id": "liquidations",
+          "createdAt": 1657349169744,
+          "updatedAt": 1696550342566,
+          "unsavedChanges": true,
+          "series": [
+            "liquidations copy 5",
+            "14nk5maw"
+          ],
+          "displayName": "Liquidations",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors",
+              "defaultOptions",
+              "format"
+            ],
+            "tab": "#options",
+            "optionsQuery": "",
+            "fontSize": 1
+          },
+          "uses": 1,
           "preview": {},
           "optionsDefinitions": {}
         }
@@ -771,9 +815,12 @@
         },
         "liquidations": {
           "scaleMargins": {
-            "top": 0.82,
-            "bottom": 0.1
-          }
+            "top": 0,
+            "bottom": 0.96
+          },
+          "indicators": [
+            "Liquidations"
+          ]
         },
         "volume": {
           "scaleMargins": {
@@ -825,6 +872,12 @@
           "indicators": [
             "PERP DELTA"
           ]
+        },
+        "perp-delta-copy-1": {
+          "scaleMargins": {
+            "top": 0.78,
+            "bottom": 0.02
+          }
         }
       },
       "layouting": false,
@@ -867,7 +920,7 @@
         "OKEX:BTC-USDC": true,
         "OKEX:BTC-USDT": true
       },
-      "barSpacing": 9.80957385564576,
+      "barSpacing": 9.307633849283299,
       "_id": "chart"
     },
     "settings": {
@@ -902,9 +955,6 @@
         "indicator-left-colors",
         "indicator-left-other",
         "timeframe-hours",
-        "indicator-right-format",
-        "indicator-right-scale",
-        "indicator-right-default",
         "indicator-right-colors"
       ],
       "searchTypes": {
@@ -1103,7 +1153,7 @@
       ],
       "favoriteTimeframes": {},
       "normalizeWatermarks": true,
-      "alerts": true,
+      "alerts": false,
       "alertsColor": "rgb(255,0,0)",
       "alertsLineStyle": 2,
       "alertsLineWidth": 2,
@@ -1139,7 +1189,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "binance-spot-cvd copy 2"
+            "binance-spot-cvd"
           ],
           "displayName": "Binance Spot CVD",
           "createdAt": 1657347988177,
@@ -1183,7 +1233,7 @@
           "description": null,
           "unsavedChanges": true,
           "series": [
-            "bybit-spot-cvd copy 2"
+            "bybit-spot-cvd"
           ],
           "displayName": "BYBIT SPOT CVD",
           "navigationState": {
@@ -1266,13 +1316,13 @@
           "unsavedChanges": true,
           "optionsDefinitions": {},
           "series": [
-            "allmarkets copy 33",
-            "hyr00qsg",
-            "rmx76bo2",
-            "vwaade2i",
-            "k6rqn1zo",
-            "3ydi26kw",
-            "kby06jwb"
+            "allmarkets",
+            "xcnku4el",
+            "203pzuj7",
+            "kkj5tz2b",
+            "2jmrtz1a",
+            "mh3hqybo",
+            "17xmol60"
           ],
           "displayName": "All markets"
         },
@@ -1375,9 +1425,12 @@
         },
         "liquidations": {
           "scaleMargins": {
-            "top": 0.82,
-            "bottom": 0.1
-          }
+            "top": 0.07,
+            "bottom": 0.85
+          },
+          "indicators": [
+            "Liquidations"
+          ]
         },
         "volume": {
           "scaleMargins": {
@@ -1417,7 +1470,7 @@
         }
       },
       "layouting": false,
-      "showIndicators": true,
+      "showIndicators": false,
       "timeframe": "3600",
       "refreshRate": 1000,
       "showAlerts": true,
@@ -1475,7 +1528,7 @@
         "OKEX:BTC-USDC": false,
         "OKEX:BTC-USDT": false
       },
-      "barSpacing": 10.56164983518981,
+      "barSpacing": 9.581508965466648,
       "_id": "chart copy 1"
     }
   }
